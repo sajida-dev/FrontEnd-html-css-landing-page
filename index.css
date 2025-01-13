@@ -1,0 +1,442 @@
+body{
+    margin: 0px;
+}
+
+#hover{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: white;
+    color: black;
+    border: 2px solid black;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: .5s;
+}
+#hover>p{
+    text-align: center;
+    margin: 200px 0px;
+    font-size: 20px;
+}
+#left>div:hover #hover,#right>div:hover #hover{
+    opacity: 1;
+}
+#left{
+float: left;
+width: 587px;
+height:1200px;
+margin-left: 5%;
+margin-top: 5%;
+}
+#right{
+    float: right;
+    width: 587px;
+    height: 1200px;
+    margin-right: 5%;
+    margin-top: 5%;
+}
+img{
+    width: 100%;
+    height: 100%;
+}
+#image1{
+    width: 520px;
+    height: 400px;
+    position: relative;
+}
+#left2image{
+    width: 225px;
+    height: 250px;
+    position: relative;
+    float: left;
+}
+#right2image{
+    width: 220px;
+    height: 250px;
+    position: relative;
+    float: right;
+}
+#imagelast{
+    width: 520px;
+    height: 350px;
+    position: relative;
+}
+#rightsection_imagetop{
+    width: 520px;
+    height: 330px;
+    position: relative;
+}
+#rightsection_imagecenter{
+    width: 520px;
+    height: 450px;
+    position: relative;
+}
+#rightsection_imagebottom{
+    width: 520px;
+    height: 230px;
+    position: relative;
+}
+#portfolio_list{
+    text-align: center;
+}
+#portfolio{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#portfolio:hover #hfolio{
+    color: white;
+    -webkit-text-stroke: gray 1px;
+}
+h1{
+    font-size: 70px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    text-align: center;
+    color: gray;
+}
+#portfolio_list li{
+    display: inline-block;
+    margin-left: 3%;
+}
+#left>div,#right>div{
+    border-radius: 7px;
+    margin: 5%;
+}
+li{
+    display: inline-block;
+    margin: 5px 10px;
+}
+a{
+    text-decoration: none;
+}
+#portfolio{
+    background-color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 5% 3px;
+}
+#hfolio:hover{
+    color: white;
+    -webkit-text-stroke: gray 1px;
+}
+#services{
+    background-color: #F7F7F7;
+    padding: 70px 0px;
+}
+#services:hover h1{
+    color: white;
+    -webkit-text-stroke: gray 1px;
+}
+p{
+    color: gray;
+}
+#section_part{
+    background-color: #F7F7F7;
+    height: 400px;
+    width: 100%;
+}
+#about{
+    padding: 120px; 
+}
+#aboutImage{
+    width: 450px;
+    height: 510px;
+    background-image: url(Indian\ women\ in\ formal\ dress\ for\ office.jpg);
+    float: left;
+}
+#abouttext{
+    width: 550px;
+    height: 510px;
+    float: right;
+}
+#abouttext h2{
+    background-color: #C49B66;
+    width: 210px;
+    letter-spacing: 5px;
+    color: white;
+    padding: 2.5%;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+}
+h5{
+    letter-spacing: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+    margin: 0px;
+}
+#aboutdetail{
+    margin-top: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+}
+#aboutdetail h3{
+    font-weight: 400;
+}
+#heading{
+    padding-top: 40px;
+}
+#hireme{
+   border-radius: 20px;
+   background-color: #C49B66;
+   background-repeat: no-repeat;
+   background-size: 0% 100%;
+   transition: 1s;
+   color: white; 
+   border: #C49B66 2px solid;
+   padding: 12px 30px;
+   margin: 5px
+}
+#hireme:hover{
+    background-size: 100% 100%;
+    background-image: linear-gradient(white,white);
+    color: #C49B66;
+}
+#downloadcv{
+   border-radius: 20px;
+   color: #C49B66; 
+   background-color: white;
+   border: #e7c8a0 2px solid;
+   background-size: 0% 100%;
+   background-repeat: no-repeat;
+   transition: 1s;
+   padding: 12px 30px;
+   margin: 5px
+}
+#downloadcv:hover{
+    color: white;
+    background-image: linear-gradient(#C49B66,#C49B66);
+    background-size: 100% 100%;
+}
+#main{
+    background-image: url(pexels-sameer-kalani-3802602.jpg);
+    height: 700px;
+    background-size: cover;
+    color: white;
+}
+#header{
+    margin: 0px;
+}
+#logo{
+    float: left;
+}
+#menue{
+    float: right;
+    width: 600px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    letter-spacing: 2px;
+    margin-top: 20px;
+}
+#menue ul li a{
+    color: white;
+}
+ul{
+    display: inline;
+}
+#maintext{
+    margin: 220px 350px 10px 350px;
+    width: 600px;
+    height: 400px;
+    font-size: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+#photography{
+    color: #C49B66;
+}
+
+#maintext h3{
+    color: white;
+    font-size: 60px;
+}
+#logo h3{
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 15px 5px 0px 125px;
+}
+#menue ul li #home{
+    color: #C49B66;
+}
+#blog{
+    height: 500px;
+    padding: 3%;
+    background-color: #F7F7F7;
+}
+#blog:hover h1{
+    color: white;
+    -webkit-text-stroke: gray 1px;
+}
+.sec{
+    width:30%;
+    margin: 3% 1%;
+}
+#section1{
+    float:left;
+    background-image: url(pexels-luis-del-río-15286.jpg);
+    margin-left:3%;
+}
+#section2{
+    float: right;
+    background-image: url(pexels-vie-studio-7004673.jpg);
+    margin-right:3%;
+}
+#section3{
+    float: right;
+    background-image: url(6.jpg);
+}
+#blog_section h4{
+    color: #C49B66;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.detail{
+    padding-top: 50%;
+}
+.detail p{
+    color: white;
+    font-size: 30px;
+    margin: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.detail h4{
+    padding:1%;
+    margin: 5px;
+}
+#contactinfo{
+    padding: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+#contactInfoDetail{
+    float: left;
+    padding-left: 10px;
+}
+#contactInfoDetail h4{
+    color: #C49B66;
+}
+#contactInfoDetail p{
+    color: gray;
+}
+#form{
+    float: right;
+    padding: 5px;
+}
+input{
+    border-radius: 30px;
+    border: none;
+    background-color: #F7F7F7;
+    padding: 20px;
+    margin: 5px 2px;
+    outline: none;
+}
+::placeholder{
+    color: black;
+}
+.row{
+    width: 324px;
+}
+.subMess{
+    width: 700px;
+}
+#message{
+    background-color: #C49B66;
+    background-size: 0% 100%;
+    background-repeat: no-repeat;
+    transition: 1.5s;
+    color: white;
+    border-radius: 30px;
+    border: 2px solid #C49B66;
+    padding: 12px;
+    margin-left: 590px;
+    width: 150px;
+    margin-top: 15px;
+}
+#message:hover{
+    background-image: linear-gradient(white, white);
+    background-size: 100% 100%;
+    color: #C49B66;
+}
+#footer{
+    height: 100px;
+    background-color: #F7F7F7;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding:2% 10% 10% 10%; 
+}
+#contactinfoSection{
+    padding: 40px;
+}
+#contactinfo h1:hover{
+    color: white;
+    -webkit-text-stroke: gray 1px;
+}
+#social>div{
+    height: 43px;
+    width: 50px;
+    background-color: #C49B66;
+    rotate: 45deg;
+    border-radius : 7px;
+    color:white;
+    font-size:30px;
+    text-align : center;
+    padding-top:7px;
+    margin: 15px;
+    transition: 1s;
+}
+#social{
+    height: 80px;
+    width: 400px;
+    margin-left: 350px;
+}
+#social div>i{
+    rotate: -45deg;
+    transition: 1s;
+}
+#social>div:hover{
+    rotate: 0deg;
+}
+#social div>i:hover{
+    rotate: unset;
+}
+#section_part>span{
+    float: left;
+    background-color: white;
+    width: 200px;
+    margin: 20px;
+    padding: 40px 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 0.3px;
+}
+span>div>i{
+    font-size: 40px;
+    rotate: -45deg;
+}
+span>div{
+    background-color: #F7F7F7;
+    border-radius: 30px;
+    padding: 20px;
+    color: #C49B66;
+    width: 43px;
+    margin:30px 30px 35px 65px;
+    rotate: 45deg;
+    transition: .5s;
+}
+#section_part>#web{
+    margin-left: 130px;
+}
+#section_part>span>div:hover{
+    rotate: 0deg;
+    color: white;
+    background-color: #C49B66;
+}
+#section_part>span>div>i:hover{
+    rotate: -1deg;
+}
+.curve{
+    background-color: white;
+    height: 300px;
+}
+svg{
+    display: block;
+}
