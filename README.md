@@ -19,6 +19,7 @@ Here’s a preview of how the landing page looks:
 ![Demo Image](demo4.png)
 ![Demo Image](demo5.png)
 ![Demo Image](demo6.png)
+You can try the live demo of the form [here](https://sajida-dev.github.io/FrontEnd-html-css-landing-page/).
 
 ## Getting Started
 
